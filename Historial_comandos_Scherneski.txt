@@ -1,0 +1,91 @@
+main bc
+bc<<<1+2
+bc<<<5534*4
+ls
+cat<<fin>>prueba.txt
+1
+2
+3
+fin
+
+ls
+cat prueba.txt 
+cat prueba.txt| wc
+cat<<fin>>prueba.txt
+
+hola
+fin
+
+cat prueba.txt 
+man wc
+cd/
+cd /
+ls
+cd proc/
+ls
+cd cpuinfo/
+cat cpuinfo 
+man grep
+grep -i core
+pwd
+ls
+history > historial.txt
+ls
+cat historial.txt 
+tail historial.txt 
+tail -n3 historial.txt 
+ls
+cp historial.txt carpeta_compartida/
+cat historial.txt 
+ls
+cd carpeta_compartida/
+ls
+cd ..
+ls
+cp historial.txt carpeta_compartida/
+ls
+vim texto.txt
+cat texto.txt
+vim texto.txt
+ls
+cat texto.tx
+cat texto.txt 
+vim ejecutable.sh
+cat ejecutable.sh 
+ls -l
+ls
+dddd
+pwd
+ls
+cd repogit/
+ls
+cd TP_AySO/
+grep <parámetro> Home_url /etc/os-release > 
+grep -i Home_url/etc/os-release>datos_url.txt
+ls
+tree punto7
+ls
+cd TP_ARQUI/
+ls
+cd
+cd repogit/
+ls
+cd TP_AySO/
+LS
+ls
+vim script_dir.sh
+ls
+vim script_dir.sh 
+cat script_dir.sh 
+sudo chmod 777  script_dir.sh
+ls -l
+git add .
+git status
+git commit -m "ADD: Añadiendo script"
+git push
+vim script_dir.sh 
+cat script_dir.sh 
+ls -l
+history -a
+ls
+history -a|cp ~/.bash_history ./Historial_comandos_Scherneski.txt
